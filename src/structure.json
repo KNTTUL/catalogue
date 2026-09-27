@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Katalog Netkaných Textilií",
+    "type": "directory",
+    "children": [
+      {
+        "name": "Nanotextilie",
+        "type": "directory",
+        "children": [
+          {
+            "name": "neco.json",
+            "type": "file"
+          }
+        ],
+        "hasInit": false
+      },
+      {
+        "name": "Neco345",
+        "type": "directory",
+        "children": [
+          {
+            "name": "neco2.json",
+            "type": "file"
+          }
+        ],
+        "hasInit": false
+      },
+      {
+        "name": "Neco89",
+        "type": "directory",
+        "children": [
+          {
+            "name": "Neco888",
+            "type": "directory",
+            "children": [
+              {
+                "name": "asd.json",
+                "type": "file"
+              }
+            ],
+            "hasInit": false
+          },
+          {
+            "name": "yes.json",
+            "type": "file"
+          }
+        ],
+        "hasInit": false
+      }
+    ],
+    "hasInit": true
+  }
+]

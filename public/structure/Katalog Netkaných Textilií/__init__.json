@@ -1,0 +1,16 @@
+{
+  "mainImage": "/images/Titulni list.png",
+  "actions": [
+    {
+      "id": "action1",
+      "type": "img",
+      "content": "/images/Pojem3.png",
+      "backgroundImage": "/images/tlacitko na pojem.png"
+    },
+    {
+      "id": "action2",
+      "type": "img",
+      "content": "/images/Pozadi2.png",
+      "backgroundImage": "/images/Vyrobce ČR.png"
+    }]
+}
