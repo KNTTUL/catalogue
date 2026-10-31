@@ -10,7 +10,13 @@
     {
       "id": "action2",
       "type": "img",
-      "content": "/images/Vyrobci_CR.pdf",
+      "content": "/images/Vyrobci_CR.jpeg",
       "backgroundImage": "/images/Vyrobce ČR.png"
+    },
+    {
+      "id": "action3",
+      "type": "img",
+      "content": "/images/Veletrhy_a_konference.jpeg",
+      "backgroundImage": "/images/tlacitko na konference.png"
     }]
 }
