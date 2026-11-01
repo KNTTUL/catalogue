@@ -10,13 +10,8 @@
           {
             "name": "Mokrá cesta",
             "type": "directory",
-            "children": [
-              {
-                "name": "_init_.json",
-                "type": "file"
-              }
-            ],
-            "hasInit": false
+            "children": [],
+            "hasInit": true
           },
           {
             "name": "Suchá cesta",
@@ -25,35 +20,20 @@
               {
                 "name": "Aerodynamicky",
                 "type": "directory",
-                "children": [
-                  {
-                    "name": "_init_.json",
-                    "type": "file"
-                  }
-                ],
-                "hasInit": false
+                "children": [],
+                "hasInit": true
               },
               {
                 "name": "Mechanicky",
                 "type": "directory",
-                "children": [
-                  {
-                    "name": "_init_.json",
-                    "type": "file"
-                  }
-                ],
-                "hasInit": false
+                "children": [],
+                "hasInit": true
               },
               {
                 "name": "Přímo z polymeru",
                 "type": "directory",
-                "children": [
-                  {
-                    "name": "_init_.json",
-                    "type": "file"
-                  }
-                ],
-                "hasInit": false
+                "children": [],
+                "hasInit": true
               },
               {
                 "name": "_init_.json",
