@@ -88,7 +88,7 @@ export default function TreeCanvas({ onNodeClick, selectedNodeId }: TreeCanvasPr
             'target-arrow-color': '#ced4da',
             'target-arrow-shape': 'triangle',
             'curve-style': 'taxi',
-            'taxi-direction': 'horizontal',
+            'taxi-direction': 'vertical',
             'taxi-turn': '20px' as any,
             'events': 'no'
           }
@@ -102,7 +102,7 @@ export default function TreeCanvas({ onNodeClick, selectedNodeId }: TreeCanvasPr
         nodeDimensionsIncludeLabels: true,
         avoidOverlap: true,
         transform: (_, position) => {
-          return { x: position.y, y: position.x };
+          return { x: position.x, y: position.y };
         }
       }
     });
