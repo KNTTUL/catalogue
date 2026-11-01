@@ -4,44 +4,11 @@
     "type": "directory",
     "children": [
       {
-        "name": "Nanotextilie",
+        "name": "Výroba vlákenné vrstvy",
         "type": "directory",
         "children": [
           {
             "name": "neco.json",
-            "type": "file"
-          }
-        ],
-        "hasInit": false
-      },
-      {
-        "name": "Neco345",
-        "type": "directory",
-        "children": [
-          {
-            "name": "neco2.json",
-            "type": "file"
-          }
-        ],
-        "hasInit": false
-      },
-      {
-        "name": "Neco89",
-        "type": "directory",
-        "children": [
-          {
-            "name": "Neco888",
-            "type": "directory",
-            "children": [
-              {
-                "name": "asd.json",
-                "type": "file"
-              }
-            ],
-            "hasInit": false
-          },
-          {
-            "name": "yes.json",
             "type": "file"
           }
         ],
