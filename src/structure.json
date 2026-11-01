@@ -19,8 +19,48 @@
             "hasInit": false
           },
           {
-            "name": "Suchá cesta.json",
-            "type": "file"
+            "name": "Suchá cesta",
+            "type": "directory",
+            "children": [
+              {
+                "name": "Aerodynamicky",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "_init_.json",
+                    "type": "file"
+                  }
+                ],
+                "hasInit": false
+              },
+              {
+                "name": "Mechanicky",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "_init_.json",
+                    "type": "file"
+                  }
+                ],
+                "hasInit": false
+              },
+              {
+                "name": "Přímo z polymeru",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "_init_.json",
+                    "type": "file"
+                  }
+                ],
+                "hasInit": false
+              },
+              {
+                "name": "_init_.json",
+                "type": "file"
+              }
+            ],
+            "hasInit": false
           }
         ],
         "hasInit": true
