@@ -31,17 +31,16 @@ export default function TreeCanvas({ onNodeClick, selectedNodeId }: TreeCanvasPr
         {
           selector: 'node',
           style: {
-            'label': 'data(label)',
-            'font-size': '13px',
-            'font-weight': 'bold',
-            'text-valign': 'center',
-            'text-halign': 'center',
-            'shape': 'rectangle',
-            'width': 'label' as any,
-            'height': 'label' as any,
-            'padding': '12px',
-            'text-wrap': 'wrap',
-            'text-max-width': '150px' as any
+              'font-weight': 'bold',
+              'color': '#000000',
+              'text-valign': 'center',
+              'text-halign': 'center',
+              'shape': 'rectangle',
+              'width': 'label' as any,
+              'height': 'label' as any,
+              'padding': '14px',
+              'text-wrap': 'wrap',
+              'text-max-width': '180px' as any
           }
         },
         {
@@ -58,9 +57,11 @@ export default function TreeCanvas({ onNodeClick, selectedNodeId }: TreeCanvasPr
         {
           selector: 'node[type = "directory"][?hasInit]',
           style: {
-            'background-color': '#339af0',
-            'color': '#ffffff',
-            'border-width': 0
+          'background-color': '#f2f2f2',
+          'color': '#000000',
+          'border-width': 2,
+          'border-color': '#222222',
+          'border-style': 'solid'
           }
         },
         {
@@ -75,9 +76,11 @@ export default function TreeCanvas({ onNodeClick, selectedNodeId }: TreeCanvasPr
         {
           selector: '.selected',
           style: {
-            'border-width': 3,
-            'border-color': '#ff922b',
-            'border-style': 'solid'
+           'border-width': 4,
+           'border-color': '#c4161c',
+            'border-style': 'solid',
+           'padding': '16px',
+           'font-size': '19px'
           }
         },
         {
