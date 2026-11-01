@@ -31,6 +31,8 @@ export default function TreeCanvas({ onNodeClick, selectedNodeId }: TreeCanvasPr
         {
           selector: 'node',
           style: {
+              'label': 'data(label)',
+              'font-size': '18px',
               'font-weight': 'bold',
               'color': '#000000',
               'text-valign': 'center',
