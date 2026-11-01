@@ -34,13 +34,9 @@
                 "type": "directory",
                 "children": [],
                 "hasInit": true
-              },
-              {
-                "name": "_init_.json",
-                "type": "file"
               }
             ],
-            "hasInit": false
+            "hasInit": true
           }
         ],
         "hasInit": true
