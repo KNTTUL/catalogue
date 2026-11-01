@@ -10,7 +10,12 @@
           {
             "name": "Mokrá cesta",
             "type": "directory",
-            "children": [],
+            "children": [
+              {
+                "name": "_init_.json",
+                "type": "file"
+              }
+            ],
             "hasInit": false
           },
           {
@@ -20,11 +25,16 @@
           {
             "name": "Suchá cesta",
             "type": "directory",
-            "children": [],
+            "children": [
+              {
+                "name": "_init_.json",
+                "type": "file"
+              }
+            ],
             "hasInit": false
           }
         ],
-        "hasInit": false
+        "hasInit": true
       }
     ],
     "hasInit": true
