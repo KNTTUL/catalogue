@@ -16,39 +16,11 @@
                 "type": "file"
               }
             ],
-<<<<<<< HEAD
-=======
             "hasInit": false
           },
           {
-            "name": "Suchá cesta",
-            "type": "directory",
-            "children": [
-              {
-                "name": "_init_.json",
-                "type": "file"
-              }
-            ],
->>>>>>> 4be0e9539b516ba42278e8ce09f181377b300e80
-            "hasInit": false
-          },
-          {
-            "name": "neco.json",
+            "name": "Suchá cesta.json",
             "type": "file"
-<<<<<<< HEAD
-          },
-          {
-            "name": "Suchá cesta",
-            "type": "directory",
-            "children": [
-              {
-                "name": "_init_.json",
-                "type": "file"
-              }
-            ],
-            "hasInit": false
-=======
->>>>>>> 4be0e9539b516ba42278e8ce09f181377b300e80
           }
         ],
         "hasInit": true
